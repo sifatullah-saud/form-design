@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: 0 auto;
+	width: 1140px;
+}
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
+.form-area{
+	background: url(image/form.png);
+	background-position: center;
+	background-size: contain;
+}
+.form{
+	display: flex;
+	padding: 150px;
+	height: 70vh;
+}
+.form-left{
+	background: #3686BD;
+	padding: 35px 30px;
+	border-radius: 8px 0px 0px 8px;
+	flex-basis: 50%;
+}
+.form-left h1{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+}
+.button{
+	padding-top: 22px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.button button{
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #fff;
+}
+.button button:hover{
+	cursor: pointer;
+	transform: translateX(5px);
+	transition: 0.5px;
+}
+.form-right{
+	background: #fff;
+	padding: 35px 30px;
+	border-radius: 8px 0px 0px 8px;
+	flex-basis: 50%;
+}
+.form-right-top h1{
+	color: #3686BD;
+	font-weight: 700;
+	font-size: 30px;
+}
+.form-box1{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.form-box form label{
+	display: block;
+	margin-bottom: 10px;
+}
+.form-box form input{
+	border: 3px solid #cccc;
+	border-radius: 5px 5px 5px 5px;
+}
+.form-box2{
+	margin-top: 10px;
+}
+.form-box2 form input{
+	padding: 5px;
+	width: 95%;
+	border-radius: 5px 5px 5px 5px;
+	border: 3px solid #cccc;
+}
+.form-right-button{
+	margin: 20px 0px 20px 0px;
+	padding-top: 15px;
+}
+.reg-btn button{
+	padding: 10px 30px;
+	border:none;
+	border-radius: 5px 5px 5px 5px;
+	color: #fff;
+	background: #3686BD;
+}
+.reg-btn button:hover{
+	cursor: pointer;
+	transform: translateX(5px);
+	transition: 0.5s;
+}
